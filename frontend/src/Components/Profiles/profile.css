@@ -1,0 +1,107 @@
+.profileContainer {
+    width: 100%;
+    padding: 1rem;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: auto auto auto;
+    justify-content: center;
+    column-gap: 2rem;
+    row-gap: 2rem;
+    justify-content: space-around;
+}
+
+.profileContainer div {
+    overflow: hidden;
+}
+
+
+.imageBox {
+    height: 200px;
+    padding: 0rem;
+    background-color: #f4f5f4;
+
+}
+
+.imageBox>img {
+    width: 100%;
+    height: 100%;
+
+}
+
+
+.textBox {
+    padding: 1.5rem;
+}
+
+.paradetails {
+    display: flex;
+    column-gap: .5rem;
+    align-items: center;
+    margin: 0;
+    color: #575752;
+}
+
+.actionsOnCards {
+    width: 100%;
+    height: 3rem;
+    background-color: #f4f5f4;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    color: #a5a5a2;
+}
+
+.likeHeart {
+    font-size: 20px;
+    color: #FF0000;
+    cursor: pointer;
+}
+
+.editClass {
+    font-size: 20px;
+    color: rgb(132 132 128);
+    cursor: pointer;
+}
+
+.editClass:hover {
+    color: rgb(12, 154, 242);
+}
+
+
+
+@media (max-width: 767px) {
+
+    /* CSS styles for mobile phones in portrait mode */
+    .profileContainer {
+        grid-template-columns: 1fr;
+
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+
+    /* CSS styles for tablets in portrait mode */
+    .profileContainer {
+        grid-template-columns: 1fr 1fr ;
+
+    }
+}
+
+
+@media (min-width: 992px) and (max-width: 1199px) {
+    /* CSS styles for tablets in landscape mode */
+    .profileContainer {
+        grid-template-columns: 1fr 1fr 1fr ;
+
+    }
+  }
+
+
+  @media (min-width: 1200px) {
+    /* CSS styles for small laptops */
+    .profileContainer {
+        grid-template-columns: 1fr 1fr 1fr 1fr ;
+
+    }
+  }

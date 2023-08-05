@@ -1,0 +1,60 @@
+.modal-dialog{
+    /* transform: translate(-50%,50%); */
+    top: 15%;
+    left: 0%;
+}
+.formClass{
+    display: flex;
+    flex-direction: column;
+    row-gap: 2rem;
+    justify-content: center;
+    align-items: center;
+}
+.formClass div{
+   width: 100%;
+   display: flex;
+   align-items: center;
+   column-gap: .5rem;
+}
+.formClass div label{
+  width: 30%;
+  text-align: right;
+}
+.formClass div input{
+  width: 70%;
+  padding: .2rem .5rem;
+  border: .5px solid rgb(207, 205, 205);
+  border-radius: 3px;
+  color: #5f5f5d;
+  outline: none;
+  font-size: 14px;
+}
+.formClass div input:hover{
+  border:.5px solid rgb(12, 154, 242);
+}
+
+
+.cancelButton{
+    background: none;
+    color:#5f5f5d;
+    border: .3px solid #5f5f5d;
+    padding: .1rem .7rem;
+    border-radius: 2px;
+}
+.cancelButton:hover{
+    background: none;
+    color:rgb(12, 154, 242);
+    border: .3px solid rgb(12, 154, 242);
+}
+
+.OKButton{
+    background-color: rgb(8, 155, 247);
+    color:white;
+    border: none;
+    padding: .2rem .7rem;
+    border-radius: 2px;
+}
+.OKButton:hover{
+    background-color: rgb(70, 178, 245);
+   
+}
