@@ -27,9 +27,13 @@ This application fetches user profiles from the [JSONPlaceholder](https://jsonpl
 - Edit user profile information using a modal form.
 
 ## Demo
+here is the demp of the application
+![App Screenshot](./front.png)
 
-[Include a link to a live demo of your application if available. You can also add screenshots or GIFs to showcase the app's functionality.]
+modal form on which  user can edit the profile 
+![App Screenshot](./modal.png)
 
+this is the live demo link of the project  `https://easy-go-rooms.netlify.app/`
 ## Installation
 
 1. Clone the repository to your local machine.
@@ -59,8 +63,8 @@ Contributions are welcome! If you find any bugs or have suggestions for improvem
 
 If you have any questions or need further assistance, feel free to contact me:
 
-- Email: [your_email@example.com]
-- GitHub: [your_github_username]
+- Email: [hemantjayas03@gmail.com]
+- GitHub: [hemantjayas]
 
 ---
 Feel free to customize this template with your specific project information and add more sections if needed. The README is an essential part of your project, as it helps users and potential contributors understand your application and its features. Happy coding!
